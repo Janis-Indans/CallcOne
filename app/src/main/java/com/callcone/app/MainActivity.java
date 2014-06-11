@@ -29,10 +29,13 @@ public class MainActivity extends Activity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-        if (id == R.id.clear_history) {
+
+        /* if (id == R.id.clear_history) {
             return true;
         }
-        return super.onOptionsItemSelected(item);
+        */
+        return id == R.id.clear_history || super.onOptionsItemSelected(item);
+        //return super.onOptionsItemSelected(item);
     }
 
 
