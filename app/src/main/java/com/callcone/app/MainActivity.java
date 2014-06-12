@@ -13,7 +13,7 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.calculator_three);
+        setContentView(R.layout.calculator_four);
 
 
     }
