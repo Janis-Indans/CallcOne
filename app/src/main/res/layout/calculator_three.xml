@@ -52,7 +52,7 @@
                     android:layout_height="wrap_content"
                     android:text="DELETE"
                     android:id="@+id/button_delete"
-                    android:textSize="12sp"
+                    android:textSize="15sp"
                     />
             </LinearLayout>
 
